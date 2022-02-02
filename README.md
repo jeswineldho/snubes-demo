@@ -20,6 +20,9 @@ You may also see any lint errors in the console.
 2) Bulma CSS for responsive design and SASS support
 3) Ract Redux and Redux form to create and manage form state
 
-All the components related to the app can be found inside /src/components
-Files for creating the Redux store is inside /src/redux
-Imports for Bulma CSS can be found inside src/theme
+## Directory structure
+
+- All the components related to the app can be found inside /src/components
+- Files for creating the Redux store is inside /src/redux
+- Imports for Bulma CSS can be found inside /src/theme
+- Assets and images required can be found inside src/assets
