@@ -26,3 +26,5 @@ You may also see any lint errors in the console.
 - Files for creating the Redux store is inside /src/redux
 - Imports for Bulma CSS can be found inside /src/theme
 - Assets and images required can be found inside src/assets
+
+As per the requirements, I have used ipapi.co as an IP lookup service to get the location of the user and prefill the country code. This doesn't require the need for asking location permissions from the user. 
