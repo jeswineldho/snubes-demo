@@ -37,6 +37,7 @@ let Form = ({ handleSubmit, name, phone, company, email }) => {
   const [countryCode, setCountryCode] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
+  //useEffect hook to fetch the country code from IP of the user
   useEffect(() => {
     fetch('https://ipapi.co/json/')
       .then((res) => res.json())
